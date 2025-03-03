@@ -1,2 +1,0 @@
-# quick-templates
-quick templates
