@@ -5,6 +5,7 @@
     "incremental": true,
     "esModuleInterop": true,
     "moduleResolution": "node",
+    "resolveJsonModule": true,
     "strict": true,
     "baseUrl": "./",
     "lib": [
@@ -19,6 +20,9 @@
       ]
     }
   },
-  "include": ["src/**/*.ts"],
+  "include": [
+    "src/**/*.ts",
+    "test/**/*.ts"
+  ],
   "exclude": ["node_modules"]
 }

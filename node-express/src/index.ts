@@ -11,10 +11,12 @@ app.use(express.json())
 
 // Sample route
 app.get('/', (req: Request, res: Response) => {
-    res.send('Hello, TypeScript with Express!')
+  res.send('Hello, TypeScript with Express!')
 })
 
 // Start the server
-app.listen(port, () => {
-    console.log(`Server running at http://localhost:${port}`)
+const server = app.listen(port, () => {
+  console.log(`Server running at http://localhost:${port}`)
 })
+
+export default server
